@@ -1,7 +1,7 @@
 # rn-password-field
 Customizable react native password field with visibility eye icon.
 
-# Installation
+## Installation
 `$ npm install --save rn-password-field`
 
 ## usage
