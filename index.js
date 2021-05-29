@@ -1,14 +1,13 @@
 import React, {useState} from 'react'
-import { StyleSheet, TextInput, View, Image } from 'react-native'
-import { TouchableOpacity } from 'react-native-gesture-handler'
+import { StyleSheet, TextInput, View, Image, TouchableOpacity } from 'react-native'
 
 const Formfield = ({placeholder, lablevalue, ispassword, ...rest}) => {
     const [invisible, SetVisible] = useState(ispassword)
-    const [icon, seticon] = useState('../assets/view.png')
+    const [icon, seticon] = useState('./assets/eye.png')
 
     const makevisible = () =>{
         invisible == true ? SetVisible(false) : SetVisible(true)
-        invisible == true ? seticon('../assets/icons/view.png') : seticon('../assets/icons/invisible.png')   
+        invisible == true ? seticon('./assets/eye.png') : seticon('./assets/invisible.png')   
     }
 
     return (
@@ -17,8 +16,8 @@ const Formfield = ({placeholder, lablevalue, ispassword, ...rest}) => {
             {ispassword==true?
                 <TouchableOpacity onPress={makevisible}>
                     {invisible == true?
-                    <Image  style={styles.icon} source={require('../assets/icons/view.png')} /> :
-                    <Image  style={styles.icon} source={require('../assets/icons/invisible.png')} />
+                    <Image  style={styles.icon} source={require('./assets/eye.png')} /> :
+                    <Image  style={styles.icon} source={require('./assets/invisible.png')} />
                     }
                 </TouchableOpacity>:null}
         </View>

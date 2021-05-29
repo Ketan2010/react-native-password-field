@@ -1,6 +1,6 @@
 {
   "name": "rn-password-field",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Customizable react native password field with visibility eye icon.",
   "main": "index.js",
   "repository": {
