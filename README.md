@@ -1,5 +1,6 @@
 # rn-password-field
 Customizable react native password field with visibility eye icon.
+![output](https://github.com/Ketan2010/rn-password-field/blob/main/assets/output/output_one.jpeg)
 
 ## Installation
 `$ npm install --save rn-password-field`
@@ -50,3 +51,8 @@ export default function login(){
     )
 }
 ```
+### Output:
+![output](https://github.com/Ketan2010/rn-password-field/blob/main/assets/output/output_one.jpeg) <br>
+![output](https://github.com/Ketan2010/rn-password-field/blob/main/assets/output/output_two.jpeg) <br>
+![output](https://github.com/Ketan2010/rn-password-field/blob/main/assets/output/output_three.jpeg) <br>
+
