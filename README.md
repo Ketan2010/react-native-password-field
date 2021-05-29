@@ -4,7 +4,7 @@ Customizable react native password field with visibility eye icon.
 ## Installation
 `$ npm install --save rn-password-field`
 
-## usage
+## Usage
 
 ```js
  import Formfield from 'rn-password-field'; 
@@ -27,7 +27,7 @@ Customizable react native password field with visibility eye icon.
 | ispassword | `bool`  | Yes | Null |
 | style | `style`  | No |  |
 
-### example: 
+### Example: 
 ``` js
 import React, {useState} from 'react'
 import { View, Button } from 'react-native'
