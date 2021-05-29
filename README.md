@@ -12,11 +12,11 @@ Customizable react native password field with visibility eye icon.
  Use Formfield component tag along with properties as below.
  
  ```js
-<FormInput placeholder='Password' ispassword={true}/>
+<Formfield placeholder='Password' ispassword={true}/>
  ```
  You can also use the same component for plain text field by setting ispassword to `false`
  ```js
-<FormInput placeholder='Username' lablevalue='Joan' ispassword={false}/>
+<Formfield placeholder='Username' lablevalue='Joan' ispassword={false}/>
  ```
 ### Properties
 
@@ -43,8 +43,8 @@ export default function login(){
     
     return(
         <View>
-                <FormInput onChangeText={e=>{setUsername(e)}}  placeholder='Email Id / Phone number' lablevalue={username} ispassword={false}/>
-                <FormInput onChangeText={e=>{setPassword(e)}} placeholder='Password' lablevalue={password} ispassword={true}/>
+                <Formfield onChangeText={e=>{setUsername(e)}}  placeholder='Email Id / Phone number' lablevalue={username} ispassword={false}/>
+                <Formfield onChangeText={e=>{setPassword(e)}} placeholder='Password' lablevalue={password} ispassword={true}/>
                 <Button onPress={onLoginPress} title="Login" />
         </View>
     )
