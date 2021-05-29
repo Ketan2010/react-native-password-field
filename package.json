@@ -1,0 +1,27 @@
+{
+  "name": "rn-password-field",
+  "version": "1.0.0",
+  "description": "Customizable react native password field with visibility eye icon.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ketan2010/rn-password-field.git"
+  },
+  "keywords": [
+    "npm",
+    "password",
+    "front-end",
+    "form-fields",
+    "password-field",
+    "login",
+    "component",
+    "android",
+    "ios"
+  ],
+  "author": "Ketan Patil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ketan2010/rn-password-field/issues"
+  },
+  "homepage": "https://github.com/Ketan2010/rn-password-field#readme"
+}
